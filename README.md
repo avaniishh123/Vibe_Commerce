@@ -202,13 +202,6 @@ npm test
 cd client
 npm test
 ```
-
-### Test Coverage
-
-- **Backend**: Unit tests for controllers, integration tests for API
-- **Frontend**: Component tests, integration tests
-- **Overall Coverage**: 90%+
-
 ---
 
 ## 🎨 Design System
