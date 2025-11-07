@@ -1,0 +1,31 @@
+{
+  "name": "vibe-commerce-server",
+  "version": "1.0.0",
+  "description": "Backend API for Vibe Commerce",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
